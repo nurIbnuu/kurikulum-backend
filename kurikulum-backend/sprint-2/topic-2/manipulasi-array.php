@@ -48,4 +48,16 @@ foreach($a as $arr) {
 array_splice($a, 0, 2);
 unset($a[0]);
 $dff = array_diff($a, ['Hubab']);
-var_dump($dff);
+// var_dump($dff);
+
+// Mengurutkan data sesuai abjad atau urutan angka
+sort($data);
+var_dump($data);
+
+$number = [1, 4, 3, 6, 7];
+// sort($number);
+rsort($number); // Dari belakang
+var_dump($number);
+
+// asort mengurutkan berdasarkan value
+// ksort mengurutkan berdasarkan key/index
