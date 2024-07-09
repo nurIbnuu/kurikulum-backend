@@ -1,5 +1,5 @@
 <?php
-# Tugas membuat program CRUD sederhana
+# Tugas Membuat Program CRUD Sederhana
 # Create, Read, Update, Delete
 
 $data = [];
